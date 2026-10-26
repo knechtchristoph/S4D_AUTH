@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZDEPARTMENT_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>Department Authorizations</DESCRIPTION>
+     <RESPONSIBLE>CB9980000061</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>H01</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZS4D_AUTH</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZDEPARTMENT_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <AUTH>
+     <item>
+      <AUTH_OBJECT>/LRN/DPMNT</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>/LRN/DPMNT</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>Ehoz5XYKHu+C9faqY8GLGA==</UUID>
+        <AUTH_OBJECT>/LRN/DPMNT</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>/LRN/DPMNT</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Display,Delete,Change,Create or generate</VALUE>
+          <VALUES>
+           <item>
+            <UUID>Ehoz5XYKHu+C9faqY8ILGA==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>Ehoz5XYKHu+C9faqY8IrGA==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>Ehoz5XYKHu+C9faqY8HrGA==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>Ehoz5XYKHu+C9faqY8HLGA==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>/LRN/DPMNT</FIELD>
+          <VALUE>ADMIN</VALUE>
+          <VALUES>
+           <item>
+            <UUID>Ehoz5XYKHu+C9faqY8GrGA==</UUID>
+            <LOW_VALUE>ADMIN</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Department ID</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+    </AUTH>
+    <PUBLISH_STATUS>u</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>
